@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   resources :items
-  devise_for :users
+  resources :favorites
+  devise_for :users, controllers: {
+    sessions: 'users/sessions'
+  }
   root to: "home#index"
 end
