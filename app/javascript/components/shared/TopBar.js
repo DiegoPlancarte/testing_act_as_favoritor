@@ -19,8 +19,8 @@ const TopBar = (props) => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/">All Blogs</Nav.Link>
-          <Nav.Link href="/">All Projects</Nav.Link>
+          <Nav.Link href="/allitems">All Items</Nav.Link>
+          <Nav.Link href="/">Favorite Items</Nav.Link>
           
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="/">Something</NavDropdown.Item>

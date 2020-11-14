@@ -10,7 +10,7 @@ puts "3 users created"
 
 10.times do |item|
   Item.create!(
-    title: "My Item Title #{Item}",
+    title: "My Item Title #{item}",
     user_id: rand(1..3)
   )
 end
